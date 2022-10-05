@@ -9,3 +9,6 @@
 
 - One pull down data at the end of every quarter
   - `0 0 30 */3 * python3 /home/mengyao_hu/crontab/code.py`
+
+## Python file
+- data is saved as .txt file and saved locally on the same vm where the cron jobs are running

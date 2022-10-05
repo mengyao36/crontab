@@ -1,7 +1,7 @@
 # crontab
 
 ## 3 cron jobs commands
-- One should pull down data from an API once a day (don’t care about what time)
+- One should pull down data once a day (don’t care about what time)
   - `0 0 * * * python3 /home/mengyao/crontab/code.py`
 
 - One should pull down data every Sunday night at 10:00pm

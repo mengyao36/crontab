@@ -12,3 +12,4 @@
 
 ## Python file
 - data is saved as .txt file and saved locally on the same vm where the cron jobs are running
+- screenshots are saved in the "scerenshot" folder

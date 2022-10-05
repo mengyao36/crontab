@@ -9,7 +9,7 @@ cwd = os.getcwd()
 print(cwd)
 
 # create a new dictionary with dummy data
-data = {'id': 100, 'age': 25, 'gender': 'female'}
+data = {'id': 100, 'age': 25, 'insurance': 0}
 
 # get the current time
 now = time.time()

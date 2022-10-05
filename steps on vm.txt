@@ -1,0 +1,16 @@
+# use crontab -e and add command 
+
+# Pull down data "once a day"
+* * * * * /user/bin/python3 /home/mengyao/crontab/code.py
+
+# Pull down data "every Sunday night at 10:00 PM"
+
+
+# Pull down data at "the end of every quarter"
+
+
+# restart the serive
+sudo service cron reload
+
+# crontab status check
+systemctl status cron

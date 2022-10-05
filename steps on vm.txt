@@ -1,16 +1,22 @@
 # use crontab -e and add command 
 
+# # Pull down data "every minute"
+* * * * * python3 /home/mengyao/crontab/code.py
+
 # Pull down data "once a day"
-* * * * * /user/bin/python3 /home/mengyao/crontab/code.py
+0 0 * * * python3 /home/mengyao/crontab/code.py
 
 # Pull down data "every Sunday night at 10:00 PM"
-
+0 22 * * SUN ython3 /home/mengyao_hu/crontab/code.py
 
 # Pull down data at "the end of every quarter"
-
+0 0 30 */3 * python3 /home/mengyao_hu/crontab/code.py
 
 # restart the serive
 sudo service cron reload
 
 # crontab status check
 systemctl status cron
+
+# show saved txt file
+nano testFile_2022-10-05_18:28:01.txt
